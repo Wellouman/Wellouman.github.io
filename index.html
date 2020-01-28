@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>U-OV</title>
+</head>
+
+<body>
+    <header class="main-site-header">
+        <div class="main-site-header-text">
+            Verhalen voor onderweg
+        </div>
+    </header>
+
+    <nav class="main-site-nav-container">
+        <div class="main-site-nav-menu">
+            <div class="main-site-nav-menu-item">
+                <img src="images/U-OV_logo.svg" alt="u-ov logo" class="main-site-nav-ov-logo" />
+            </div>
+
+            <div class="main-site-nav-menu-item">
+                <img src="images/search_white.svg" alt="search" class="main-site-nav-search-logo" />
+                <img src="images/user_white.svg" alt="user" class="main-site-nav-user-logo" />
+            </div>
+        </div>
+    </nav>
+
+    <section class="main-site-section-primary">
+        <article class="main-site-article-generate">
+            <div class="main-site-article-generate-header">
+                <h2 class="main-site-article-generate-text">
+                    Genereer jouw verhaal!
+                </h2>
+                <img src="images/arrow_down.svg" alt="arrow-down" class="main-site-article-generate-arrow-down" />
+            </div>
+            <div class="main-site-article-generate-content">
+                <div class="main-site-article-generate-title">
+                    Kies uw sfeerwoord(en)
+                </div>
+                <form class="main-site-article-generate-form">
+                    <div class="main-site-article-generate-form-item" id="vrolijk">
+                        <label class="main-site-article-generate-form-item-text">
+                            Vrolijk
+                        </label>
+                        <input type="checkbox" name="vrolijk" class="main-site-article-generate-checkbox" />
+                    </div>
+                    <div class="main-site-article-generate-form-item" id="angst">
+                        <label class="main-site-article-generate-form-item-text">
+                            Angst
+                        </label>
+                        <input type="checkbox" name="angst" class="main-site-article-generate-checkbox" />
+                    </div>
+                    <div class="main-site-article-generate-form-item" id="agressief">
+                        <label class="main-site-article-generate-form-item-text">
+                            Agressief
+                        </label>
+                        <input type="checkbox" name="agressief" class="main-site-article-generate-checkbox" />
+                    </div>
+                    <div class="main-site-article-generate-form-item" id="verward">
+                        <label class="main-site-article-generate-form-item-text">
+                            Verward
+                        </label>
+                        <input type="checkbox" name="verward" class="main-site-article-generate-checkbox" />
+                    </div>
+                    <div class="main-site-article-generate-form-item" id="romantisch">
+                        <label class="main-site-article-generate-form-item-text">
+                            Romantisch
+                        </label>
+                        <input type="checkbox" name="romantisch" class="main-site-article-generate-checkbox" />
+                    </div>
+                    <div class="main-site-article-generate-form-item" id="bedroefd">
+                        <label class="main-site-article-generate-form-item-text">
+                            Bedroefd
+                        </label>
+                        <input type="checkbox" name="bedroefd" class="main-site-article-generate-checkbox" />
+                    </div>
+                    <div></div>
+                    <input class="main-site-article-generate-button" type="button" value="Genereer!" onclick="generateArticle()" />
+                </form>
+            </div>
+        </article>
+
+        <article class="main-site-article-post">
+            <img src="images/verhaal1.jpg" alt="verhaal" class="main-site-article-post-verhaal-img" />
+
+            <div class="main-site-article-post-content">
+                <div class="main-site-article-post-content-left">
+                    <div class="main-site-article-post-title-container">
+                        <div class="main-site-article-post-title">
+                            Stijloefeningen (16) - Eric Lucassen
+                        </div>
+                        <img src="images/heart_border.svg" alt="heart" class="main-site-article-post-heart-img" onclick="this.src='images/heart_fill_black.svg'" />
+                    </div>
+                    <div class="main-site-article-post-details">
+                        Posted on 22 februari 2012 by Molovich
+                    </div>
+                    <div class="main-site-article-post-text">
+                        Ik stap bus 21 uit terwijl ik mijn zoon op nog geen halve meter
+                        hinderlijk achtervolg. De gore klootzak heeft een uur geleden in
+                        z’n luier gescheten…
+                    </div>
+                    <div class="main-site-article-post-link">
+                        Lees het hele bericht (5 minuten)
+                    </div>
+                </div>
+                <div class="main-site-article-post-content-right">
+                    <div class="main-site-article-post-watched">
+                        2.341
+                    </div>
+                    <div class="main-site-article-post-watched">
+                        Keer bekeken
+                    </div>
+                    <div class="main-site-article-post-rating">
+                        5.0
+                    </div>
+                    <div class="main-site-article-post-stars-img-container">
+                        <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                        <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                        <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                        <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                        <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                    </div>
+                    <div class="main-site-article-post-genre">
+                        Sfeerwoord(en): Aggressief
+                    </div>
+                    <div class="main-site-article-post-genre">
+                        Psychologisch verhaal
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="main-site-section-secondary">
+        <div class="main-site-filters">
+            <div class="main-site-filter-item">
+                <div class="main-site-filter-item-text">
+                    Zoek jouw verhaal...
+                </div>
+                <img src="images/search.svg" alt="search" class="main-site-filter-item-img" />
+            </div>
+            <div class="main-site-filter-item">
+                <div class="main-site-filter-item-text">
+                    Filteren
+                </div>
+                <img src="images/filteren.svg" alt="filteren" class="main-site-filter-item-img" />
+            </div>
+            <div class="main-site-filter-item">
+                <div class="main-site-filter-item-text">
+                    Sorteren
+                </div>
+                <img src="images/sorteren.svg" alt="search" class="main-site-filter-item-img" />
+            </div>
+        </div>
+
+        <article class="main-site-article-results">
+            <div class="main-site-article-results-amount">
+                99 resultaten
+            </div>
+            <div class="main-site-article-results-stories">
+                Verhalen voor u
+            </div>
+
+            <div class="main-site-article-results-post">
+                <img src="images/verhaal2.jpg" alt="verhaal2" class="main-site-article-results-post-img" />
+                <div class="main-site-article-results-post-content">
+                    <div class="main-site-article-results-post-header">
+                        <div class="main-site-article-results-post-watched">
+                            <div>2.341</div>
+                            <img src="images/eye.svg" alt="eye" class="main-site-article-results-post-watched-icon">
+                        </div>
+                        <div class="main-site-article-results-post-rating">
+                            <div>5.0</div>
+                            <div class="main-site-article-results-stars-img-container">
+                                <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                                <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                                <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                                <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                                <img src="images/star.svg" alt="stars" class="main-site-article-post-stars-img" />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="main-site-article-results-title-container">
+                        <div class="main-site-article-results-title">
+                            Stijloefeningen (55) - Van vader tot zoon
+                        </div>
+                        <img src="images/heart_border.svg" alt="heart" class="main-site-article-results-heart-img" onclick="this.src='images/heart_fill_black.svg'">
+                    </div>
+                    <div class="main-site-article-results-details">
+                        Posted on 19 april 2011 by Molovich
+                    </div>
+                    <div class="main-site-article-results-text">
+                        Je ligt vredig in je wagen te slapen als ik de bus
+                        uitstap op die druilerige dag in februari van het
+                        jaar 2011. In je groene wagentje. (Daar wil je
+                        inmiddels, nu ik dit schrijf…
+                    </div>
+                    <div class="main-site-article-results-genre">
+                        Sfeerwoord(en): Wisselend
+                    </div>
+                    <div class="main-site-article-results-genre">
+                        Genre: Psychologisch verhaal
+                    </div>
+                    <div class="main-site-article-results-link">
+                        Lees het hele bericht (5 minuten)
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

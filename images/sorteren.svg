@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20.9 17.9" style="enable-background:new 0 0 20.9 17.9;" xml:space="preserve">
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M20.9,9.6L16,17.9l-5.4-8.2l2.9,0l-0.1-2.8C13.4,1.4,9,0,9,0c7.4-0.1,8.9,6.8,8.9,6.8L18,9.6L20.9,9.6z"/>
+	</defs>
+	<use xlink:href="#SVGID_1_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#E97A30;"/>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+<g>
+	<defs>
+		<path id="SVGID_3_" d="M0,8.3L4.9,0l5.4,8.2l-2.9,0L7.4,11c0.1,5.5,4.5,6.9,4.5,6.9C4.5,18,3,11.2,3,11.2L2.9,8.3L0,8.3z"/>
+	</defs>
+	<use xlink:href="#SVGID_3_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:#E9792F;"/>
+	<clipPath id="SVGID_4_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+</g>
+</svg>
